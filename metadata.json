@@ -1,0 +1,5 @@
+{
+  "name": "Outlier AI Clone",
+  "description": "A responsive and animated clone of the Outlier.ai homepage, built with React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
