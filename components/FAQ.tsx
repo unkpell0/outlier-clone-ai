@@ -2,11 +2,11 @@
 import React, { useState } from 'react';
 
 const faqData = [
-    { question: "About Outlier", answer: "Outlier is a platform that connects domain experts with opportunities to train and improve leading AI models. We are powered by Scale AI and provide flexible, remote work for specialists across the globe." },
-    { question: "Getting started", answer: "To get started, simply click on 'View Opportunities', find a project that matches your expertise, and complete the application process. Once approved, you can start working on tasks right away." },
-    { question: "Qualifications", answer: "We look for individuals with deep knowledge or professional experience in a wide range of fields. This can range from advanced degrees and professional certifications to demonstrable expertise through a portfolio of work." },
-    { question: "Pay", answer: "Pay varies by project and is typically based on the complexity and skill required for the tasks. We offer competitive, project-based rates and ensure timely payments for all completed work." },
-    { question: "Hours", answer: "The work is highly flexible. There are no minimum or maximum hour requirements. You can work as much or as little as you want, whenever it fits your schedule." },
+    { question: "What is Strive Financial Consultants?", answer: "Strive is a dedicated financial consulting firm providing personalized investment management and financial planning services. We help individuals and families achieve their financial goals through expert, data-driven strategies." },
+    { question: "How do I get started?", answer: "The first step is a complimentary consultation. Click 'Schedule a Consultation' to book a meeting. We'll discuss your goals and see if we're a good fit. There's no obligation." },
+    { question: "Who are your consultants?", answer: "Our team consists of Certified Financial Planners (CFPs) and accredited professionals with years of experience in wealth management, retirement planning, and market analysis." },
+    { question: "What are your fees?", answer: "We believe in transparency. Our fees are typically based on a percentage of assets under management. We'll provide a clear fee structure during our initial consultation." },
+    { question: "How often will we meet?", answer: "We establish a regular review schedule, typically quarterly or semi-annually. However, we're always available to connect whenever you have questions or when life events require a strategy adjustment." },
 ];
 
 const AccordionItem = ({ item, isOpen, onClick }) => (
