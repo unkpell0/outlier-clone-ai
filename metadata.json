@@ -1,5 +1,7 @@
+
 {
-  "name": "Outlier AI Clone",
-  "description": "A responsive and animated clone of the Outlier.ai homepage, built with React, TypeScript, and Tailwind CSS.",
-  "requestFramePermissions": []
+  "name": "Strive Financial Consultants",
+  "description": "A responsive website for a financial consultancy firm, built with React, TypeScript, and Tailwind CSS. Showcasing services, expert team, and client success.",
+  "requestFramePermissions": [],
+  "prompt": ""
 }
