@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
             <div className="container mx-auto px-6 py-12">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <p className="text-sm text-gray-500 order-2 md:order-1">
-                        &copy; {new Date().getFullYear()} Smart Ecosystems. All rights reserved.
+                        &copy; {new Date().getFullYear()} Strive Financial. All rights reserved.
                     </p>
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:flex lg:flex-wrap lg:justify-center items-center gap-x-6 gap-y-2 order-1 md:order-2">
                         {footerLinks.map(link => (
