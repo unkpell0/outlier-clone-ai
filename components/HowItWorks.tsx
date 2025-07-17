@@ -4,19 +4,19 @@ import { useOnScreen } from '../hooks/useOnScreen';
 
 const features = [
     {
-        title: 'Train smarter, faster AI',
-        description: 'Lead AI to it\'s next breakthrough by challenging its logic, accuracy, and reasoning.',
-        image: 'https://cdn.dribbble.com/userupload/3859664/file/original-2c74eda85f233483259b3437119f391a.png?resize=1200x900'
+        title: '1. Discovery & Goal Setting',
+        description: 'We start with a deep dive into your current financial situation, long-term aspirations, and risk tolerance.',
+        image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1932&auto=format&fit=crop'
     },
     {
-        title: 'Work with the brightest minds',
-        description: 'Connect and share insights with domain specialists shaping the next generation of AI.',
-        image: 'https://cdn.dribbble.com/userupload/10415392/file/original-b2585918732152b822d4aa2e9f0866e4.png?resize=1200x900'
+        title: '2. Strategy & Plan Development',
+        description: 'Our experts craft a personalized financial strategy, selecting the right investment vehicles and asset allocation for you.',
+        image: 'https://images.unsplash.com/photo-1640653799842-55737a43d02a?q=80&w=1740&auto=format&fit=crop'
     },
     {
-        title: 'Earn for your expertise',
-        description: 'Get paid for the knowledge you\'ve spent years building. Work from anywhere, anytime.',
-        image: 'https://cdn.dribbble.com/userupload/4117978/file/original-c75c5e311893c87328570530d93132bb.png?resize=1200x900'
+        title: '3. Implementation & Monitoring',
+        description: 'We put your plan into action and provide continuous monitoring and regular reviews to keep you on track.',
+        image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1740&auto=format&fit=crop'
     }
 ];
 
@@ -28,10 +28,10 @@ export const HowItWorks: React.FC = () => {
             <div className="container mx-auto px-6">
                 <div className={`text-center transition-opacity duration-1000 ${isOnScreen ? 'opacity-100' : 'opacity-0'}`}>
                     <h2 className="text-3xl md:text-5xl font-extrabold tracking-tighter text-gray-900">
-                        We're <span className="gradient-text">re-defining</span> how AI learns.
+                        A <span className="gradient-text">clear path</span> to your financial goals.
                     </h2>
                     <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-                        Powered by domain experts like you.
+                        Our structured approach ensures your financial plan is built on a solid foundation.
                     </p>
                 </div>
 
