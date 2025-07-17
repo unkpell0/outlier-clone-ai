@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Logo = () => (
-  <span className="text-3xl font-bold tracking-tighter text-gray-900">Outlier</span>
+  <span className="text-3xl font-bold tracking-tighter text-gray-900">Strive</span>
 );
 
 const MenuIcon = ({ className }: { className?: string }) => (
@@ -22,7 +22,7 @@ const CloseIcon = ({ className }: { className?: string }) => (
 
 const navLinks = [
   { name: 'About Us', href: '#' },
-  { name: 'Our Experts', href: '#' },
+  { name: 'Our Consultants', href: '#' },
   { name: 'Blog', href: '#' },
   { name: 'FAQ', href: '#' },
 ];
@@ -57,7 +57,7 @@ export const Header: React.FC = () => {
             <div className="hidden lg:flex items-center space-x-4">
               <a href="#" className="px-5 py-2 text-sm font-semibold text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-full transition-colors">LOG IN</a>
               <a href="#" className="px-5 py-2 text-sm font-semibold text-white bg-gray-900 hover:bg-gray-700 rounded-full transition-colors">
-                VIEW OPPORTUNITIES
+                GET A FREE CONSULTATION
               </a>
             </div>
             <div className="lg:hidden">
@@ -89,7 +89,7 @@ export const Header: React.FC = () => {
         <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col space-y-4">
             <a href="#" className="w-full text-center px-5 py-3 text-lg font-semibold text-gray-700 bg-gray-100 rounded-full">LOG IN</a>
             <a href="#" className="w-full text-center px-5 py-3 text-lg font-semibold text-white bg-gray-900 rounded-full">
-                VIEW OPPORTUNITIES
+                GET A FREE CONSULTATION
             </a>
         </div>
       </div>
