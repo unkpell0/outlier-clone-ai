@@ -28,7 +28,7 @@ const App: React.FC = () => {
         <CTASection />
       </main>
       <Footer />
-    </>
+    </div>
   );
 };
 
